@@ -1,0 +1,373 @@
+*
+{
+    margin:0%;
+    padding:0%;
+
+}
+header
+{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/bg1.jpg');
+    background-position: center;
+    height: 100vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+.main
+{
+     width: 100%;
+     height: 100px;
+     /* background-color:aqua; */
+}
+.content
+{
+    width: 80%;
+    height: 100px;
+     /* background-color:lightgreen;  */
+    margin: auto;
+}
+.logo 
+{
+    width: 95px;
+    height: 95px;
+    /* background-color: azure ; */
+}
+.logo img
+{
+    width:100%;
+    padding-top:15%;
+    
+}
+.page
+{
+    
+    
+    display: flex;
+    justify-content: end;
+    margin-top: -65px;
+    
+   
+}
+.page a
+{
+    padding: 10px;
+    text-decoration:none ;
+    color:white;
+}
+.page a::after
+{
+    content: '';
+    width: 0px;
+    height: 1px;
+    margin: auto;
+    display: block;
+    background-color: red;
+     transition: 0.5s;
+
+}
+.page a:hover
+{
+    color: cornflowerblue;
+    transform: scale(1.2);
+}
+.page a:hover::after
+{
+    width: 100%;
+    
+}
+.text
+{
+     height: 250px;
+     width: 60%;
+     /* background-color: aliceblue; */
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:55%;
+    left: 50%;
+    
+ 
+    
+}
+
+.text h1
+{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    color: aliceblue;
+}
+
+.text p
+{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: aliceblue;
+    text-align: justify;
+   
+
+}
+.btn span
+{   
+    
+    
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:60%;
+    left: 50%;
+    padding:10px 40px;
+    border:1px solid white;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.5s;
+  
+}   
+
+ .btn span:hover
+ {
+    transform: scale(1.1);
+    background-color: antiquewhite;
+    color: black;
+    border: none;
+ }   
+ .course h1
+ {
+    text-align: center;
+    color: rgb(49, 49, 185);
+    padding-top: 20px;
+    padding-bottom: 0px;
+ }
+ .course p
+ {
+    text-align: center;
+    color:rgb(49, 49, 185);
+ }
+ .row
+ {
+    display: flex;
+    justify-content: space-around;
+    padding:80px;
+ }
+
+ .col
+ {
+    width: 27%;
+    border: 1px solid black;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px lightslategrey;
+   
+
+
+}
+.col
+{
+    transition: 0.5s;
+    
+}
+
+.col:hover
+{
+    transform: scale(1.1);
+    border: none;
+    background-color: rgb(152, 188, 235);
+}
+.col h3
+{
+    color:rgb(49, 49, 185);
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: px;
+}
+
+.col p
+{
+    color: rgb(59, 57, 57);
+}
+
+.branches h1
+{
+    text-align: center;
+    color:rgb(49, 49, 185);
+    padding-bottom: 20px;
+}
+.branches p
+{
+    text-align: center;
+    color: rgb(53, 51, 51);
+    font-size: 18px;
+}
+
+.rowimg
+{
+    display: flex;
+    justify-content: space-around;
+    padding:80px;
+}
+.colimg
+{
+    width: 27%;
+    height: 300px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.colimg img
+{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.colimg:hover
+{
+     transform: scale(1.1); 
+    border-radius:7px ;
+}
+.layer
+{
+    position: relative;
+    top:-100.9%;
+    bottom: 0%;
+    transform: translate(-50%);
+    left: 49.8%;
+    height: 300px;
+    width: 100%;
+}
+.layer:hover
+{
+    background-color: rgba(226,0,0,0.5);
+    border-radius: 10px;
+}
+.layerbox
+{
+    height: 350px;
+    width: 95%;
+    position: absolute;
+    text-align: center;
+    transition: 0.5s;
+    bottom: 0%;
+    opacity: 0;
+    color: white;
+}
+.layerbox:hover
+{
+    opacity: 1;
+    bottom: 20%;
+}
+.surat h3
+{
+    text-align: center;
+    left: 40%;
+    margin-top: 50%;
+}
+
+.rajkot h3
+{
+    text-align: center;
+    left: 35%;
+    margin-top: 50%;
+
+}
+.ahemdabad h3
+{
+    text-align: center;
+    left: 35%;
+    margin-top: 50%;
+}
+
+.facilities h2
+{
+    text-align: center;
+    color:rgb(49, 49, 185) ;
+
+}
+.facrow
+{
+    display: flex;
+    justify-content: space-around;
+    padding:80px;
+    
+
+}
+.faccol
+{
+    width: 27%;
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+.faccol img
+{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.faccol p
+{
+    color: black;
+    padding-top: 6%;
+    
+}
+
+.students h2
+{
+    text-align: center;
+    color:rgb(49, 49, 185) ;
+    padding-top: 5%;
+
+}
+
+.srow
+{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 5%;
+    
+}
+
+.scol
+
+{
+    width: 40%;
+    height: 300px;
+    display: flex;
+    /* padding: 0px 50px; */
+}
+.simg
+{
+    width: 60px;
+    height: 60px;
+    padding: 0px 20px;
+}
+
+.simg img
+{
+    width: 100%;
+    height: 60px;
+}
+.stext p
+{
+    text-align: left;
+    color: black;
+}
+.stext h4
+{
+    padding-top: 5%;
+    
+}
+.stext i
+{
+   color: rgb(121, 121, 235);
+   padding-top: 5%;
+
+}
